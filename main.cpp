@@ -3,6 +3,7 @@
 #include <secp256k1_ecdsa_adaptor.h>
 #include <secp256k1_schnorr_adaptor.h>
 #include <secp256k1_schnorrsig.h>
+#include <cassert>
 #include "utils.h"
 
 int schnorr_adaptor_benchmark() {
@@ -114,8 +115,7 @@ int schnorr_adaptor_benchmark() {
 
     return 0;
 }
-
-int main(void) {
+int ecdsa_adaptor_benchmark(){
     unsigned char msg[32] = "Hello World";
     unsigned char bob_seckey[32];
     unsigned char alice_seckey[32];
@@ -131,6 +131,7 @@ int main(void) {
     double total_verify_time = 0;
     double total_decrypt_time = 0;
     double total_recover_time = 0;
+    double total_time_generate_common_ecdsa = 0;
 
     for (int i = 0; i < num_samples; i++) {
         if (!fill_random(bob_seckey, sizeof(bob_seckey)) || !fill_random(alice_seckey, sizeof(alice_seckey))) {
@@ -181,7 +182,12 @@ int main(void) {
         end = std::chrono::high_resolution_clock::now();
         diff = end - start;
         total_recover_time += diff.count();
-
+        start = std::chrono::high_resolution_clock::now();
+        secp256k1_ecdsa_sign(ctx, &sig, msg, deckey32, NULL, NULL);
+        end = std::chrono::high_resolution_clock::now();
+        diff = end - start;
+        total_time_generate_common_ecdsa += diff.count();
+        
         if (return_val != 1) {
             std::cout << "Failed to recover decryption key\n";
             return 1;
@@ -196,7 +202,11 @@ int main(void) {
     std::cout << "Average time for secp256k1_ecdsa_adaptor_decrypt: " << total_decrypt_time / num_samples << " ms\n";
     std::cout << "Total time for secp256k1_ecdsa_adaptor_recover: " << total_recover_time << " ms\n";
     std::cout << "Average time for secp256k1_ecdsa_adaptor_recover: " << total_recover_time / num_samples << " ms\n";
+    std::cout << "Total time for generating common ecdsa signature: " << total_time_generate_common_ecdsa << " ms\n";
+}
+int main(void) {
 
+    ecdsa_adaptor_benchmark();
     schnorr_adaptor_benchmark();
 
     return 0;
