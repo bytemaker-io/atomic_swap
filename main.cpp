@@ -187,7 +187,7 @@ int ecdsa_adaptor_benchmark(){
         end = std::chrono::high_resolution_clock::now();
         diff = end - start;
         total_time_generate_common_ecdsa += diff.count();
-        
+
         if (return_val != 1) {
             std::cout << "Failed to recover decryption key\n";
             return 1;
@@ -203,6 +203,7 @@ int ecdsa_adaptor_benchmark(){
     std::cout << "Total time for secp256k1_ecdsa_adaptor_recover: " << total_recover_time << " ms\n";
     std::cout << "Average time for secp256k1_ecdsa_adaptor_recover: " << total_recover_time / num_samples << " ms\n";
     std::cout << "Total time for generating common ecdsa signature: " << total_time_generate_common_ecdsa << " ms\n";
+    std::cout << "Average time for generating common ecdsa signature: " << total_time_generate_common_ecdsa/num_samples << " ms\n";
 }
 int main(void) {
 
