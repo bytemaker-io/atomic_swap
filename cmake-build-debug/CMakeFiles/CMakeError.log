@@ -1,0 +1,59 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C SOURCE FILE Test HAVE_X86_64_ASM failed with the following output:
+Change Dir: /Users/michaljason/Documents/atomic_swap/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_45b83/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_45b83.dir/build.make CMakeFiles/cmTC_45b83.dir/build
+Building C object CMakeFiles/cmTC_45b83.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_X86_64_ASM  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=c90 -MD -MT CMakeFiles/cmTC_45b83.dir/src.c.o -MF CMakeFiles/cmTC_45b83.dir/src.c.o.d -o CMakeFiles/cmTC_45b83.dir/src.c.o -c /Users/michaljason/Documents/atomic_swap/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+[1m/Users/michaljason/Documents/atomic_swap/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:7:65: [0m[0;1;31merror: [0m[1minvalid output constraint '+a' in asm[0m
+      __asm__ __volatile__("movq $0x100000000,%1; mulq %%rsi" : "+a"(a) : "S"(tmp) : "cc", "%rdx");
+[0;1;32m                                                                ^
+[0m1 error generated.
+make[1]: *** [CMakeFiles/cmTC_45b83.dir/src.c.o] Error 1
+make: *** [cmTC_45b83/fast] Error 2
+
+
+Source file was:
+
+    #include <stdint.h>
+
+    int main()
+    {
+      uint64_t a = 11, tmp;
+      __asm__ __volatile__("movq $0x100000000,%1; mulq %%rsi" : "+a"(a) : "S"(tmp) : "cc", "%rdx");
+    }
+  
+Performing C SOURCE FILE Test C_SUPPORTS__WCAST_ALIGN_STRICT failed with the following output:
+Change Dir: /Users/michaljason/Documents/atomic_swap/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_ed545/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ed545.dir/build.make CMakeFiles/cmTC_ed545.dir/build
+Building C object CMakeFiles/cmTC_ed545.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DC_SUPPORTS__WCAST_ALIGN_STRICT  -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics   -Wcast-align=strict -std=c90 -MD -MT CMakeFiles/cmTC_ed545.dir/src.c.o -MF CMakeFiles/cmTC_ed545.dir/src.c.o.d -o CMakeFiles/cmTC_ed545.dir/src.c.o -c /Users/michaljason/Documents/atomic_swap/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+[0;1;31merror: [0m[1munknown warning option '-Wcast-align=strict'; did you mean '-Wcast-align'? [-Werror,-Wunknown-warning-option][0m
+make[1]: *** [CMakeFiles/cmTC_ed545.dir/src.c.o] Error 1
+make: *** [cmTC_ed545/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }

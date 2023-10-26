@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libsecp256k1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\third\;CMake Files\third\secp256k1-zkp\;CMake Files\third\secp256k1-zkp\cmake\;CMake Files\third\secp256k1-zkp\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check">
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 check"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="secp256k1_precomputed">
+				<Option output="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/CMakeFiles/secp256k1_precomputed.dir/secp256k1_precomputed.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_MODULE_ECDH=1"/>
+					<Add option="-DENABLE_MODULE_SCHNORRSIG=1"/>
+					<Add option="-DENABLE_MODULE_EXTRAKEYS=1"/>
+					<Add option="-DENABLE_MODULE_ELLSWIFT=1"/>
+					<Add option="-DECMULT_WINDOW_SIZE=15"/>
+					<Add option="-DECMULT_GEN_PREC_BITS=4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 secp256k1_precomputed"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="secp256k1_precomputed/fast">
+				<Option output="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/CMakeFiles/secp256k1_precomputed.dir/secp256k1_precomputed.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_MODULE_ECDH=1"/>
+					<Add option="-DENABLE_MODULE_SCHNORRSIG=1"/>
+					<Add option="-DENABLE_MODULE_EXTRAKEYS=1"/>
+					<Add option="-DENABLE_MODULE_ELLSWIFT=1"/>
+					<Add option="-DECMULT_WINDOW_SIZE=15"/>
+					<Add option="-DECMULT_GEN_PREC_BITS=4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 secp256k1_precomputed/fast"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="secp256k1">
+				<Option output="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/libsecp256k1.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_MODULE_ECDH=1"/>
+					<Add option="-DENABLE_MODULE_SCHNORRSIG=1"/>
+					<Add option="-DENABLE_MODULE_EXTRAKEYS=1"/>
+					<Add option="-DENABLE_MODULE_ELLSWIFT=1"/>
+					<Add option="-DECMULT_WINDOW_SIZE=15"/>
+					<Add option="-DECMULT_GEN_PREC_BITS=4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 secp256k1"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="secp256k1/fast">
+				<Option output="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/libsecp256k1.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_MODULE_ECDH=1"/>
+					<Add option="-DENABLE_MODULE_SCHNORRSIG=1"/>
+					<Add option="-DENABLE_MODULE_EXTRAKEYS=1"/>
+					<Add option="-DENABLE_MODULE_ELLSWIFT=1"/>
+					<Add option="-DECMULT_WINDOW_SIZE=15"/>
+					<Add option="-DECMULT_GEN_PREC_BITS=4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 secp256k1/fast"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench">
+				<Option output="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/bench" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_MODULE_ECDH=1"/>
+					<Add option="-DENABLE_MODULE_SCHNORRSIG=1"/>
+					<Add option="-DENABLE_MODULE_EXTRAKEYS=1"/>
+					<Add option="-DENABLE_MODULE_ELLSWIFT=1"/>
+					<Add option="-DECMULT_WINDOW_SIZE=15"/>
+					<Add option="-DECMULT_GEN_PREC_BITS=4"/>
+					<Add directory="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 bench"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench/fast">
+				<Option output="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/bench" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_MODULE_ECDH=1"/>
+					<Add option="-DENABLE_MODULE_SCHNORRSIG=1"/>
+					<Add option="-DENABLE_MODULE_EXTRAKEYS=1"/>
+					<Add option="-DENABLE_MODULE_ELLSWIFT=1"/>
+					<Add option="-DECMULT_WINDOW_SIZE=15"/>
+					<Add option="-DECMULT_GEN_PREC_BITS=4"/>
+					<Add directory="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 bench/fast"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench_internal">
+				<Option output="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/bench_internal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_MODULE_ECDH=1"/>
+					<Add option="-DENABLE_MODULE_SCHNORRSIG=1"/>
+					<Add option="-DENABLE_MODULE_EXTRAKEYS=1"/>
+					<Add option="-DENABLE_MODULE_ELLSWIFT=1"/>
+					<Add option="-DECMULT_WINDOW_SIZE=15"/>
+					<Add option="-DECMULT_GEN_PREC_BITS=4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 bench_internal"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench_internal/fast">
+				<Option output="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/bench_internal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_MODULE_ECDH=1"/>
+					<Add option="-DENABLE_MODULE_SCHNORRSIG=1"/>
+					<Add option="-DENABLE_MODULE_EXTRAKEYS=1"/>
+					<Add option="-DENABLE_MODULE_ELLSWIFT=1"/>
+					<Add option="-DECMULT_WINDOW_SIZE=15"/>
+					<Add option="-DECMULT_GEN_PREC_BITS=4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 bench_internal/fast"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench_ecmult">
+				<Option output="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/bench_ecmult" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_MODULE_ECDH=1"/>
+					<Add option="-DENABLE_MODULE_SCHNORRSIG=1"/>
+					<Add option="-DENABLE_MODULE_EXTRAKEYS=1"/>
+					<Add option="-DENABLE_MODULE_ELLSWIFT=1"/>
+					<Add option="-DECMULT_WINDOW_SIZE=15"/>
+					<Add option="-DECMULT_GEN_PREC_BITS=4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 bench_ecmult"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench_ecmult/fast">
+				<Option output="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/bench_ecmult" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_MODULE_ECDH=1"/>
+					<Add option="-DENABLE_MODULE_SCHNORRSIG=1"/>
+					<Add option="-DENABLE_MODULE_EXTRAKEYS=1"/>
+					<Add option="-DENABLE_MODULE_ELLSWIFT=1"/>
+					<Add option="-DECMULT_WINDOW_SIZE=15"/>
+					<Add option="-DECMULT_GEN_PREC_BITS=4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 bench_ecmult/fast"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="noverify_tests">
+				<Option output="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/noverify_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_MODULE_ECDH=1"/>
+					<Add option="-DENABLE_MODULE_SCHNORRSIG=1"/>
+					<Add option="-DENABLE_MODULE_EXTRAKEYS=1"/>
+					<Add option="-DENABLE_MODULE_ELLSWIFT=1"/>
+					<Add option="-DECMULT_WINDOW_SIZE=15"/>
+					<Add option="-DECMULT_GEN_PREC_BITS=4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 noverify_tests"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="noverify_tests/fast">
+				<Option output="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/noverify_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_MODULE_ECDH=1"/>
+					<Add option="-DENABLE_MODULE_SCHNORRSIG=1"/>
+					<Add option="-DENABLE_MODULE_EXTRAKEYS=1"/>
+					<Add option="-DENABLE_MODULE_ELLSWIFT=1"/>
+					<Add option="-DECMULT_WINDOW_SIZE=15"/>
+					<Add option="-DECMULT_GEN_PREC_BITS=4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 noverify_tests/fast"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests">
+				<Option output="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERIFY"/>
+					<Add option="-DENABLE_MODULE_ECDH=1"/>
+					<Add option="-DENABLE_MODULE_SCHNORRSIG=1"/>
+					<Add option="-DENABLE_MODULE_EXTRAKEYS=1"/>
+					<Add option="-DENABLE_MODULE_ELLSWIFT=1"/>
+					<Add option="-DECMULT_WINDOW_SIZE=15"/>
+					<Add option="-DECMULT_GEN_PREC_BITS=4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests/fast">
+				<Option output="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERIFY"/>
+					<Add option="-DENABLE_MODULE_ECDH=1"/>
+					<Add option="-DENABLE_MODULE_SCHNORRSIG=1"/>
+					<Add option="-DENABLE_MODULE_EXTRAKEYS=1"/>
+					<Add option="-DENABLE_MODULE_ELLSWIFT=1"/>
+					<Add option="-DECMULT_WINDOW_SIZE=15"/>
+					<Add option="-DECMULT_GEN_PREC_BITS=4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 tests/fast"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exhaustive_tests">
+				<Option output="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/exhaustive_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERIFY"/>
+					<Add option="-DENABLE_MODULE_ECDH=1"/>
+					<Add option="-DENABLE_MODULE_SCHNORRSIG=1"/>
+					<Add option="-DENABLE_MODULE_EXTRAKEYS=1"/>
+					<Add option="-DENABLE_MODULE_ELLSWIFT=1"/>
+					<Add option="-DECMULT_WINDOW_SIZE=15"/>
+					<Add option="-DECMULT_GEN_PREC_BITS=4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 exhaustive_tests"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exhaustive_tests/fast">
+				<Option output="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/exhaustive_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERIFY"/>
+					<Add option="-DENABLE_MODULE_ECDH=1"/>
+					<Add option="-DENABLE_MODULE_SCHNORRSIG=1"/>
+					<Add option="-DENABLE_MODULE_EXTRAKEYS=1"/>
+					<Add option="-DENABLE_MODULE_ELLSWIFT=1"/>
+					<Add option="-DECMULT_WINDOW_SIZE=15"/>
+					<Add option="-DECMULT_GEN_PREC_BITS=4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 exhaustive_tests/fast"/>
+					<CompileFile command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/CMakeFiles/secp256k1_precomputed.dir/precomputed_ecmult.c.o">
+			<Option target="secp256k1"/>
+			<Option target="bench_internal"/>
+			<Option target="bench_ecmult"/>
+			<Option target="noverify_tests"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src/CMakeFiles/secp256k1_precomputed.dir/precomputed_ecmult_gen.c.o">
+			<Option target="secp256k1"/>
+			<Option target="bench_internal"/>
+			<Option target="bench_ecmult"/>
+			<Option target="noverify_tests"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/src/bench.c">
+			<Option target="bench"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/src/bench.h">
+			<Option target="bench"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/src/bench_ecmult.c">
+			<Option target="bench_ecmult"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/src/bench_internal.c">
+			<Option target="bench_internal"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/src/precomputed_ecmult.c">
+			<Option target="secp256k1_precomputed"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/src/precomputed_ecmult.h">
+			<Option target="secp256k1_precomputed"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/src/precomputed_ecmult_gen.c">
+			<Option target="secp256k1_precomputed"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/src/precomputed_ecmult_gen.h">
+			<Option target="secp256k1_precomputed"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/src/secp256k1.c">
+			<Option target="secp256k1"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/src/tests.c">
+			<Option target="noverify_tests"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/src/tests_exhaustive.c">
+			<Option target="exhaustive_tests"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third\secp256k1-zkp\"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/cmake/CheckStringOptionValue.cmake">
+			<Option virtualFolder="CMake Files\third\secp256k1-zkp\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/cmake/CheckX86_64Assembly.cmake">
+			<Option virtualFolder="CMake Files\third\secp256k1-zkp\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/cmake/FindValgrind.cmake">
+			<Option virtualFolder="CMake Files\third\secp256k1-zkp\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/cmake/TryAppendCFlags.cmake">
+			<Option virtualFolder="CMake Files\third\secp256k1-zkp\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/michaljason/Documents/atomic_swap/third/secp256k1-zkp/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third\secp256k1-zkp\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

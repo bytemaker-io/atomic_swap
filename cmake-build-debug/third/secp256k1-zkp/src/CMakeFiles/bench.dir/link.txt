@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/bench.dir/bench.c.o -o bench  -Wl,-rpath,/Users/michaljason/Documents/atomic_swap/cmake-build-debug/third/secp256k1-zkp/src libsecp256k1.2.dylib 
